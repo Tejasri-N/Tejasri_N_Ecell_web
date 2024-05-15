@@ -1,5 +1,6 @@
 body {
-    background-color: #161720;
+    /* background-color: #161720; */
+    background: linear-gradient(180deg, #a2c0ee, #0639c4);
     font-family: sans-serif;
     margin: 0;
     padding: 0;
@@ -22,7 +23,7 @@ header {
     font-weight: bold;
     font-size: 30px;
     text-align: center;
-    color: #5151ef;
+    color: #1010d6;
 }
 .e-cell-text-1 {
     margin-top: 20px;
@@ -49,21 +50,20 @@ h1 {
 
 main {
     padding: 20px;
-    background-color: #161720;
     color: #fff;
 }
 
 .footer-container {
-    display: flex;
+    display: flex;  
     justify-content: space-between;
-    justify-content: center;
     align-items: center;
-    padding: 0px;
-    background-color: #56329a;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    background-color: #390795;
     color: #fff;
 }
   
-.quick-links,
+/* .quick-links,
 .contact-us {
     flex: 1;
 }
@@ -86,10 +86,55 @@ main {
 .contact-us a {
     color: #fff;
     text-decoration: none;
+} */
+
+a{
+    text-decoration: none;
+    color: white;
 }
-  
+
+.quick-links{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.quick-links li{
+    padding: 1vw;
+    list-style: none;
+}
+.quick-links ul{
+    margin-left: -3.5vw;
+}
+
 .contact-us p {
     display: flex;
     align-items: center;
     margin-bottom: 5px;
+}
+.contact-us i{
+    padding: 1vw;
+}
+
+.e-cell-text-3{
+    font-size: 3em;
+}
+.content{
+    padding-top: 4vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 3vw;
+    font-size: 1.2em;
+    line-height: 5vh;
+}
+
+.e-cell-text{
+    font-size: 5em;
+}
+
+.e-cell-text-1{
+    font-size: 4em;
+}
+
+.e-cell-text-2{
+    font-size: 2.5em;
 }
