@@ -1,0 +1,95 @@
+body {
+    background-color: #161720;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #161720;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+.e-cell-text {
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #5151ef;
+}
+.e-cell-text-1 {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+}
+.e-cell-text-2 {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #d5cccc;
+}
+.e-cell-text-3 {
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+main {
+    padding: 20px;
+    background-color: #161720;
+    color: #fff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    background-color: #56329a;
+    color: #fff;
+}
+  
+.quick-links,
+.contact-us {
+    flex: 1;
+}
+ 
+.quick-links h2 {
+    padding-left: 10;
+}
+
+.quick-links ul {
+    list-style: none;
+    padding: 10;
+    margin: 0;
+}
+  
+.quick-links li {
+    margin-bottom: 10px;
+}
+  
+.quick-links a,
+.contact-us a {
+    color: #fff;
+    text-decoration: none;
+}
+  
+.contact-us p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
